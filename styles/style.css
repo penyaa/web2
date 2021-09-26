@@ -1,0 +1,114 @@
+.menu{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navigation{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: tomato;
+}
+
+#underline {
+    text-decoration: underline;
+    color:blanchedalmond;
+    margin-right: 10px;
+}
+
+.menu a:hover{
+    color: wheat;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    
+}
+
+body{
+    margin: 0;
+}
+
+.button-ride{
+    text-align: right;
+}
+
+.button-me{
+    text-decoration: none;
+    color: orange;
+    border: 2px solid teal;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button-me:hover{
+    color: purple;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: salmon;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0 37px 0;
+    margin-top: 2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.avatar{
+    margin: 3rem 0;
+    text-align: center;
+    height: 350px;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.avatar img{
+    height: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.py-5{
+    padding-top: 3rem ;
+    padding-bottom: 3rem ;
+}
+
+.w-50{
+    max-width: 50%;
+}
+
+.my-3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    border-color: springgreen;
+    color: rgb(78, 45, 78);
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: rgb(114, 223, 250);
+    border: 2px solid;
+    border-radius: 5px;
+}
